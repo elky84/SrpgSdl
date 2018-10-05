@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GuiUtil", "GuiUtil\GuiUtil.vcxproj", "{D708465C-C1F0-9E89-F7F6-C191CA5F8816}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDLUtil", "SDLUtil\SDLUtil.vcxproj", "{919A9D36-FE83-6B11-1C39-C88B36FCA292}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D708465C-C1F0-9E89-F7F6-C191CA5F8816} = {D708465C-C1F0-9E89-F7F6-C191CA5F8816}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SRPG", "SRPG\SRPG.vcxproj", "{CE73F10F-CBFB-80A6-47CA-6D60ECB15178}"
+	ProjectSection(ProjectDependencies) = postProject
+		{919A9D36-FE83-6B11-1C39-C88B36FCA292} = {919A9D36-FE83-6B11-1C39-C88B36FCA292}
+		{D708465C-C1F0-9E89-F7F6-C191CA5F8816} = {D708465C-C1F0-9E89-F7F6-C191CA5F8816}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D708465C-C1F0-9E89-F7F6-C191CA5F8816}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D708465C-C1F0-9E89-F7F6-C191CA5F8816}.Debug|Win32.Build.0 = Debug|Win32
+		{D708465C-C1F0-9E89-F7F6-C191CA5F8816}.Release|Win32.ActiveCfg = Release|Win32
+		{D708465C-C1F0-9E89-F7F6-C191CA5F8816}.Release|Win32.Build.0 = Release|Win32
+		{919A9D36-FE83-6B11-1C39-C88B36FCA292}.Debug|Win32.ActiveCfg = Debug|Win32
+		{919A9D36-FE83-6B11-1C39-C88B36FCA292}.Debug|Win32.Build.0 = Debug|Win32
+		{919A9D36-FE83-6B11-1C39-C88B36FCA292}.Release|Win32.ActiveCfg = Release|Win32
+		{919A9D36-FE83-6B11-1C39-C88B36FCA292}.Release|Win32.Build.0 = Release|Win32
+		{CE73F10F-CBFB-80A6-47CA-6D60ECB15178}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE73F10F-CBFB-80A6-47CA-6D60ECB15178}.Debug|Win32.Build.0 = Debug|Win32
+		{CE73F10F-CBFB-80A6-47CA-6D60ECB15178}.Release|Win32.ActiveCfg = Release|Win32
+		{CE73F10F-CBFB-80A6-47CA-6D60ECB15178}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
