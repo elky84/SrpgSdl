@@ -11,7 +11,7 @@
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/elky84/srpg-holic.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/elky84/srpg-holic.svg)
-# SRPG Holic
+# SRPG SDL
 
 VS2010 + libsdl
 
